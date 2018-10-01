@@ -1,0 +1,57 @@
+
+@import '@material/top-app-bar/mdc-top-app-bar';
+@import "@material/drawer/mdc-drawer";
+@import "@material/list/mdc-list";
+
+
+$mdc-theme-primary: #3178CD;
+$mdc-theme-secondary: #66757f;
+$mdc-typography-font-family: 'Lato', sans-serif;
+
+$primary-color: #fff;
+$secondary-color: #3178CD;
+$sidebar-background: #202325;
+$page-background: #eff3f5;
+
+
+body {
+  margin: 0;
+  padding: 64px 0 0 0;
+  font-family: sans-serif;
+  background-color: #8fd4e4;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.mdc-top-app-bar {
+  background-color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
